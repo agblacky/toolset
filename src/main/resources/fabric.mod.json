@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "toolset",
+  "version": "${version}",
+  "name": "toolset",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/toolset/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "me.agblacky.toolset.Toolset"
+    ]
+  },
+  "mixins": [
+    "toolset.mixins.json",
+    {
+      "config": "toolset.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
