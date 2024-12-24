@@ -1,2 +1,3 @@
 # toolset
- Various tools eventually needed for Minecraft? Let's be honest it's a little playground project to get familiar with Fabric modding
+ Various tools eventually needed for Minecraft? 
+ More of a playground project to get familiar with Java and Minecraft / Fabric modding
